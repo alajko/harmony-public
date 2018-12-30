@@ -6,8 +6,8 @@ import (
 	"net"
 	"time"
 
+	"github.com/harmony-one/harmony-public/pkg/p2p"
 	"github.com/harmony-one/harmony/log"
-	"github.com/harmony-one/harmony/p2p"
 )
 
 // HostV1 is the version 1 p2p host, using direct socket call.
